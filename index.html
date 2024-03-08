@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      href="https://cdn-icons-png.freepik.com/256/4234/4234313.png"
+      type="image/x-icon"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./splide-4.1.3/dist/css/splide.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./fonts/fonts.css" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <title>СТАЛЬЭНЕРГО</title>
+  </head>
+  <body>
+    <main>
+      <header>
+        <div class="header_nav">
+          <div class="header_logo_wrapper">
+            <img src="./svg/Logo.svg" alt="logo" />
+            <p>Оптовые поставки металлопроката по России и странам СНГ</p>
+          </div>
+          <nav>
+            <ul class="nav_menu">
+              <li><a href="#">О компании</a></li>
+              <li><a href="#">Прайс-листы</a></li>
+              <li><a href="#">Производство</a></li>
+              <li><a href="#">Закупки</a></li>
+              <li><a href="#">Контакты</a></li>
+            </ul>
+            <div class="phone_wrapper">
+              <p class="phone_number">
+                <i class="fa-solid fa-phone" style="color: #000000"></i>8 800
+                999 79 77
+              </p>
+              <p class="phone_subtitle">Заказать звонок</p>
+            </div>
+            <div class="menu">
+              <input
+                type="checkbox"
+                id="burger-checkbox"
+                class="burger-checkbox"
+              />
+              <label for="burger-checkbox" class="burger"></label>
+              <ul class="menu-list">
+                <li><a href="#" class="menu-item">О компании</a></li>
+                <li><a href="#" class="menu-item">Прайс-листы</a></li>
+                <li><a href="#" class="menu-item">Производство</a></li>
+                <li><a href="#" class="menu-item">Закупки</a></li>
+                <li><a href="#" class="menu-item">Контакты</a></li>
+                <li><a href="#" class="menu-item"><i class="fa-solid me-2 fa-cart-shopping"></i>Мой покупки</a></li>
+                <li>
+                  <a href="#" class="menu-item"
+                    ><i class="far fa-user me-2"></i>Профиль</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="menu-item"><p>
+                      <i class="fa-solid fa-phone me-2"  style="color: #000000"></i>
+                      8 800 999 79 77
+                    </p></a>
+                </li>
+
+                <li></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+
+        <div
+          class="header_search d-flex justify-content-between align-items-center"
+        >
+          <div class="header_search_left">
+            <div class="btn-group">
+              <button
+                type="button"
+                class="btn btn-success dropdown-toggle"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Каталог
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">Separated link</a></li>
+              </ul>
+            </div>
+            <div class="search_wrapper">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <input class="w-100" type="text" />
+            </div>
+            <div class="location">
+              <i class="fa-solid fa-location-dot"></i>
+              <p class="mb-0 ms-2">
+                Свердл. обл., г. Первоуральск Пн-Вс 8:00 - 21:00
+              </p>
+            </div>
+          </div>
+          <div class="header_search_right">
+            <div class="user_wrapper d-flex">
+              <i class="fa-regular fa-user"></i>
+              <i class="fa-solid fa-chevron-down"></i>
+            </div>
+            <i class="fa-solid fa-cart-shopping"></i>
+          </div>
+        </div>
+      </header>
+      <section class="section1">
+        <h1>Надёжный поставщик Выгодный партнёр</h1>
+        <p>Оптовая продажа металлопроката от производителя</p>
+        <button class="bg-success text-white border border-success">
+          написать нам
+        </button>
+        <div class="company_info">
+          <div class="company_info_card">
+            <div class="title">27000 +</div>
+            <div class="orange_line"></div>
+            <div class="subtitle">товарных позиций</div>
+          </div>
+          <div class="company_info_card">
+            <div class="title">15 лет</div>
+            <div class="orange_line"></div>
+            <div class="subtitle">работы в отрасли</div>
+          </div>
+          <div class="company_info_card">
+            <div class="title">2200 +</div>
+            <div class="orange_line"></div>
+            <div class="subtitle">постоянных клиентов</div>
+          </div>
+        </div>
+      </section>
+      <section class="section2">
+        <div class="section2_wrapper">
+          <div class="section2_card">
+            <h4>ТРУБНЫЙ ПРОКАТ</h4>
+            <img class="trub" src="./image/section2_card1.png" alt="" />
+            <ul>
+              <li>Сортовой прокат</li>
+              <li>Фасонный прокат</li>
+              <li>Листовой прокат</li>
+              <li>Лента металлическая</li>
+            </ul>
+            <a href="">Смотреть все</a>
+          </div>
+          <div class="section2_card">
+            <h4>ДЕТАЛИ ТРУБОПРОВОДОВ</h4>
+            <img src="./image/section2_card2.png" alt="" />
+            <ul>
+              <li>Металлочерепица</li>
+              <li>Профнастил</li>
+              <li>Доборные элементы</li>
+              <li>Водосточная система</li>
+            </ul>
+            <a href="">Смотреть все</a>
+          </div>
+          <div class="section2_card">
+            <h4>ТРУБОПРОВОДНАЯ АРМАТУРА</h4>
+            <img src="./image/section2_card3.png" alt="" />
+            <ul>
+              <li>Сайдинг металлический</li>
+              <li>Панели</li>
+              <li>Доборные элементы</li>
+              <li>Элементы безопасности</li>
+            </ul>
+            <a href="">Смотреть все</a>
+          </div>
+          <div class="section2_card">
+            <h4>ЦВЕТНОЙ МЕТАЛЛОПРОКАТ</h4>
+            <img src="./image/section2_card4.png" alt="" />
+            <ul>
+              <li>Сортовой прокат</li>
+              <li>Фасонный прокат</li>
+              <li>Листовой прокат</li>
+              <li>Лента металлическая</li>
+            </ul>
+            <a href="">Смотреть все</a>
+          </div>
+        </div>
+        <div class="section2_butons">
+          <button class="bg-success text-white border border-success me-4">
+            Смотреть все
+          </button>
+          <button class="bg-warning text-white border border-warning">
+            скачать прайс-лист
+          </button>
+        </div>
+      </section>
+      <section class="section3">
+        <h4>ПОПУЛЯРНЫЕ РАЗДЕЛЫ</h4>
+        <div class="populate">
+          <div class="splide slider1" aria-label="Splide Basic HTML Example">
+            <div class="splide__track slider1_container">
+              <ul class="splide__list slider1_carusel">
+                <li class="section3_card splide__slide">
+                  <img src="./image/section3.1.png" alt="" />
+                  <h3 class="splide__slide__text">Швеллер</h3>
+                </li>
+                <li class="section3_card splide__slide">
+                  <img src="./image/section3.2.png" alt="" />
+                  <h3 class="splide__slide__text">Балка двутаровая</h3>
+                </li>
+                <li class="section3_card splide__slide">
+                  <img src="./image/section3.3.png" alt="" />
+                  <h3 class="splide__slide__text">Арматура</h3>
+                </li>
+                <li class="section3_card splide__slide">
+                  <img src="./image/section3.4.png" alt="" />
+                  <h3 class="splide__slide__text">Уголок металлический</h3>
+                </li>
+                <li class="section3_card splide__slide">
+                  <img src="./image/section3.1.png" alt="" />
+                  <h3 class="splide__slide__text">Швеллер</h3>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section4">
+        <h4>СПЕЦИАЛЬНЫЕ ПРЕДЛОЖЕНИЯ</h4>
+        <div class="populate">
+          <div class="splide slider2" aria-label="Splide Basic HTML Example">
+            <div class="splide__track slider1_container">
+              <ul class="splide__list slider1_carusel section4_wrapper">
+                <li class="splide__slide section4_card">
+                  <p class="section4_title">
+                    Труба котельная 377х17 мм, ту 14-3р-55-2001 сталь 12х1мф. 11
+                    тн
+                  </p>
+                  <p class="section4_price">200 000 руб/тн.</p>
+                  <a href="#" class="section4_info">Подробнее</a>
+                </li>
+                <li class="splide__slide section4_card">
+                  <p class="section4_title">
+                    Клапан запорный 15бн3бк, Dy 100 мм, Ру 16 - 8 шт
+                  </p>
+                  <p class="section4_price">180 000 руб/тн.</p>
+                  <a href="#" class="section4_info">Подробнее</a>
+                </li>
+                <li class="splide__slide section4_card">
+                  <p class="section4_title">
+                    Труба котельная низкого давления 273х8 мм и 325х8 мм – сталь
+                    20 ТУ 14-3-190-2004.
+                  </p>
+                  <p class="section4_price">90 000 руб/тн.</p>
+                  <a href="#" class="section4_info">Подробнее</a>
+                </li>
+                <li class="splide__slide section4_card">
+                  <p class="section4_title">
+                    Труба котельная 377х17 мм, ту 14-3р-55-2001 сталь 12х1мф. 11
+                    тн
+                  </p>
+                  <p class="section4_price">200 000 руб/тн.</p>
+                  <a href="#" class="section4_info">Подробнее</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section5">
+        <div class="service_info">
+          <h4>УСЛУГИ</h4>
+          <div class="service_wrapper">
+            <div class="service_card">
+              <img src="./svg/service_card1.svg" alt="" class="service_img" />
+              <span>Резка металлопроката</span>
+            </div>
+            <div class="service_card">
+              <img src="./svg/service_card2.svg" alt="" class="service_img" />
+              <span>Литье деталей и заготовок</span>
+            </div>
+            <div class="service_card">
+              <img src="./svg/service_card3.svg" alt="" class="service_img" />
+              <span>Шлифовка труб и металлопроката</span>
+            </div>
+            <div class="service_card">
+              <img src="./svg/service_card4.svg" alt="" class="service_img" />
+              <span>Токарные, фрезерные и слесарные работы по металлу</span>
+            </div>
+            <div class="service_card">
+              <img src="./svg/service_card5.svg" alt="" class="service_img" />
+              <span>Термообработка (закаливание металлоизделий)</span>
+            </div>
+            <div class="service_card">
+              <img src="./svg/service_card6.svg" alt="" class="service_img" />
+              <span>Цинкование металлоизделий</span>
+            </div>
+            <div class="service_card">
+              <img src="./svg/service_card7.svg" alt="" class="service_img" />
+              <span>Нанесение антикоррозионных покрытий</span>
+            </div>
+            <div class="service_card">
+              <img src="./svg/service_card8.svg" alt="" class="service_img" />
+              <span>Изоляция труб</span>
+            </div>
+          </div>
+        </div>
+        <div class="services_img">
+          <img class="img" src="./image/services_img.png" alt="" />
+        </div>
+      </section>
+      <section class="section6">
+        <h4>НАШИ КЛИЕНТЫ</h4>
+        <div class="slider3_container">
+          <div class="splide slider3" aria-label="Splide Basic HTML Example">
+            <div class="splide__track slider3_wrapper">
+              <ul class="splide__list slider3_carusel">
+                <li class="section6_card splide__slide">
+                  <img src="./image/customers1.png" alt="" />
+                </li>
+                <li class="section6_card splide__slide">
+                  <img src="./image/customers2.png" alt="" />
+                </li>
+                <li class="section6_card splide__slide">
+                  <img src="./image/customers3.png" alt="" />
+                </li>
+                <li class="section6_card splide__slide">
+                  <img src="./image/customers4.png" alt="" />
+                </li>
+                <li class="section6_card splide__slide">
+                  <img src="./image/customers1.png" alt="" />
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section7">
+        <h4>ПОЧЕМУ ВЫБИРАЮТ НАС?</h4>
+        <div class="section7_wrapper">
+          <div class="section7_card">
+            <img src="./svg/section7.1.svg" alt="" />
+            <p>Большой выбор качественной продукции</p>
+          </div>
+          <div class="section7_card">
+            <img src="./svg/section7.2.svg" alt="" />
+            <p>Широкий выбор металлоизделий в одном месте</p>
+          </div>
+          <div class="section7_card">
+            <img src="./svg/section7.3.svg" alt="" />
+            <p>Помощь в таможенном оформлении грузов</p>
+          </div>
+          <div class="section7_card">
+            <img src="./svg/section7.4.svg" alt="" />
+            <p>Доставим продукцию по России или в другие страны</p>
+          </div>
+          <div class="section7_card">
+            <img src="./svg/section7.5.svg" alt="" />
+            <p>Персональный подход к каждому клиенту</p>
+          </div>
+          <div class="section7_card">
+            <img src="./svg/section7.6.svg" alt="" />
+            <p>Скидки и бонусы постоянным клиентам</p>
+          </div>
+          <div class="section7_card">
+            <img src="./svg/section7.7.svg" alt="" />
+            <p>Предоставление товарного кредита и отсрочки оплаты</p>
+          </div>
+          <div class="section7_card">
+            <img src="./svg/section7.8.svg" alt="" />
+            <p>Большой выбор услуг на складе: упаковка, резка в размер и пр.</p>
+          </div>
+        </div>
+      </section>
+      <section class="section8">
+        <h4>НОВОСТИ</h4>
+        <div class="slider4_container">
+          <div class="splide slider4" aria-label="Splide Basic HTML Example">
+            <div class="splide__track slider3_wrapper">
+              <ul class="splide__list slider3_carusel">
+                <li class="section8_card splide__slide">
+                  <h5>Название новости</h5>
+                  <span>24.03.2020</span>
+                  <p>
+                    Таким образом реализация намеченных плановых заданий в
+                    значительной степени обуславливает создание модели развития.
+                  </p>
+                </li>
+                <li class="section8_card splide__slide">
+                  <h5>Название новости</h5>
+                  <span>24.03.2020</span>
+                  <p>
+                    Таким образом реализация намеченных плановых заданий в
+                    значительной степени обуславливает создание модели развития.
+                  </p>
+                </li>
+                <li class="section8_card splide__slide">
+                  <h5>Название новости</h5>
+                  <span>24.03.2020</span>
+                  <p>
+                    Таким образом реализация намеченных плановых заданий в
+                    значительной степени обуславливает создание модели развития.
+                  </p>
+                </li>
+                <li class="section8_card splide__slide">
+                  <h5>Название новости</h5>
+                  <span>24.03.2020</span>
+                  <p>
+                    Таким образом реализация намеченных плановых заданий в
+                    значительной степени обуславливает создание модели развития.
+                  </p>
+                </li>
+                <li class="section8_card splide__slide">
+                  <h5>Название новости</h5>
+                  <span>24.03.2020</span>
+                  <p>
+                    Таким образом реализация намеченных плановых заданий в
+                    значительной степени обуславливает создание модели развития.
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <button class="section8_btn">все новости</button>
+      </section>
+      <footer>
+        <div class="footer_top">
+          <div class="footer_logo">
+            <img src="./svg/Logo.svg" alt="logo" />
+            <div class="underline">Политика конфиденциальности</div>
+            <p>
+              Вся предоставленная на сайте информация не является публичной
+              офертой, определяемой положениями Статьи 437(2) Гражданского
+              кодекса РФ
+            </p>
+          </div>
+          <div class="footer_company">
+            <h5 class="footer_title">КОМПАНИЯ</h5>
+            <ul class="footer_list">
+              <li>Главная</li>
+              <li>О компании</li>
+              <li>Доставка и оплата</li>
+            </ul>
+          </div>
+          <div class="footer_catalog">
+            <h5 class="footer_title">КАТАЛОГ</h5>
+            <div class="footer_catalog_wrapper">
+              <ul class="footer_list">
+                <li>Трубный прокат</li>
+                <li>Трубопроводная арматура</li>
+                <li>Нержавеющий прокат</li>
+                <li>Чёрный прокат</li>
+                <li>Листовой прокат</li>
+              </ul>
+              <ul class="footer_list">
+                <li>Жаропрочный прокат</li>
+                <li>Металлоконструкции</li>
+                <li>Ферросплавы</li>
+                <li>Металлические порошки</li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer_contact">
+            <div>
+              <h5 class="footer_title">КОНТАКТЫ</h5>
+              <div class="footer_tel">8 800 999 79 77</div>
+              <div class="footer_email">atomes@help.com</div>
+            </div>
+            <button>ЗАКАЗТЬ ЗВОНОК</button>
+          </div>
+        </div>
+        <div class="footer_bottom">
+          <div>
+            <p>© 2009-2020 ООО “Стальэнерго”</p>
+            <p>Все права защищены</p>
+          </div>
+          <div class="social_icons">
+            <img src="./svg/social1.svg" alt="" />
+            <img src="./svg/social2.svg" alt="" />
+            <img src="./svg/social3.svg" alt="" />
+          </div>
+        </div>
+      </footer>
+    </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./splide-4.1.3/dist/js/splide.min.js"></script>
+  </body>
+  <script>
+    var splide = new Splide(".splide.slider1", {
+      type: "slide",
+      perPage: 4,
+      focus: "left",
+      gap: "40px",
+      pagination: false,
+      breakpoints: {
+        975: { perPage: 3, gap: "40px" },
+        780: { perPage: 3, gap: "40px" },
+        540: { perPage: 1, gap: "40px" },
+      },
+    });
+    splide.mount();
+    var splide = new Splide(".splide.slider2", {
+      type: "slide",
+      perPage: 3,
+      focus: "left",
+      gap: "40px",
+      pagination: false,
+      breakpoints: {
+        1200: { perPage: 3, gap: "40px" },
+        920: { perPage: 2, gap: "40px" },
+        820: { perPage: 1, gap: "40px" },
+      },
+    });
+    splide.mount();
+    var splide = new Splide(".splide.slider3", {
+      type: "slide",
+      perPage: 4,
+      focus: "left",
+      gap: "40px",
+      pagination: false,
+      breakpoints: {
+        920: { perPage: 2, gap: "40px" },
+        540: { perPage: 1, gap: "40px" },
+      },
+    });
+    splide.mount();
+    var splide = new Splide(".splide.slider4", {
+      type: "slide",
+      perPage: 4,
+      focus: "left",
+      gap: "40px",
+      pagination: false,
+      breakpoints: {
+        920: { perPage: 2, gap: "40px" },
+        540: { perPage: 1, gap: "40px" },
+      },
+    });
+    splide.mount();
+  </script>
+  <script src="./main.js"></script>
+</html>
