@@ -587,6 +587,25 @@ footer {
   border-radius: 8px;
 }
 
+/* Company2 Start */
+.company2_wrapper{
+  background-attachment: fixed;
+  background-image:linear-gradient(rgba(37, 33, 33, 0.52), rgba(23, 20, 21, 0.73)), url(https://stal-ural.ru/wp-content/uploads/2014/08/buril-web.jpg.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px 40px;
+}
+.company2_wrapper ul{
+  width: 50%;
+}
+.company2_wrapper li{
+  text-align: left;
+  padding-bottom:20px ;
+  color: #fff;
+}
+/* Company2 End */
+
 
 
 
@@ -676,6 +695,9 @@ footer {
   .company1{
     grid-template-columns: 1fr;
   }
+  .company2_wrapper ul{
+    width: 100%;
+  }
 }
 
 @media (max-width: 590px) {
@@ -702,4 +724,5 @@ footer {
   .splide__arrow--prev {
     left: 85%;
   }
+  
 }
