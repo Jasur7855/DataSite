@@ -590,7 +590,7 @@ footer {
 /* Company2 Start */
 .company2_wrapper{
   background-attachment: fixed;
-  background-image:linear-gradient(rgba(37, 33, 33, 0.52), rgba(23, 20, 21, 0.73)), url(https://stal-ural.ru/wp-content/uploads/2014/08/buril-web.jpg.webp);
+  background-image:linear-gradient(rgba(37, 33, 33, 0.52), rgba(23, 20, 21, 0.73)), url(../image/company.jpg.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
